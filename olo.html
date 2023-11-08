@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Мой первый сайт</title>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Sans+JP:wght@100;200&family=Open+Sans:ital,wdth,wght@0,100,300;0,100,800;1,75,300&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="blok-menu">
+<ul class="menu">
+<li><a href="main.html">Главная</a></li>
+<li><a href="olo.html">Обо мне</a></li>
+<li><a href="rabota.html">Мои работы</a></li>
+<!-- <li><a href="prais.html">Прайс</a></li> -->
+<!-- <li><a href="contakt.html">Контакты</a></li> -->
+</ul>
+</div>
+<div class="logo">
+<img src="All/kr-transformed (1).png">
+</div>
+<div class="content">
+<h2>Я студент группы 221-331</h2>
+<h3>Учусь на направлении: "Информационная безопасность автоматизированных систем"</h3>
+</div>
+<h1> Форма обратной связи</h1>
+<form action="submit-form.php" method="post" enctype="multipart/form-data">
+    <div>
+      <label for="name">ФИО:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+  
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+  
+    <div>
+      <label>Откуда узнали о нас:</label>
+      <div>
+        <label for="radio1"><input type="radio" id="radio1" name="source" value="Рекомендация">Рекомендация</label>
+      </div>
+      <div>
+        <label for="radio2"><input type="radio" id="radio2" name="source" value="Реклама">Реклама</label>
+      </div>
+      <div>
+        <label for="radio3"><input type="radio" id="radio3" name="source" value="Социальные сети">Социальные сети</label>
+      </div>
+    </div>
+  
+    <div>
+      <label for="type">Тип обращения:</label>
+      <select id="type" name="type" required>
+        <option value="">Выберите тип обращения</option>
+        <option value="Жалоба">Жалоба</option>
+        <option value="Предложение">Предложение</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="message">Текст сообщения:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+  
+    <div>
+      <label for="attachment">Вложения:</label>
+      <input type="file" id="attachment" name="attachment">
+    </div>
+  
+    <div>
+      <label for="consent"><input type="checkbox" id="consent" name="consent" required>Даю согласие на обработку персональных данных</label>
+    </div>
+  
+    <div>
+      <button type="submit">Отправить</button>
+    </div>
+  </form>
+<div class="footer">
+<p><a href="https://t.me/KarlMiloslavskii">Мой телеграм</a> © 2023</p>
+</div>
+</body>
+</html>

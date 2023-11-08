@@ -1,0 +1,132 @@
+*
+{
+  margin:0px ;
+  padding:0px;
+  }
+  .menu li
+  {
+  float:left;
+  list-style: none;
+  margin:10px 25px ;
+  }
+  .blok-menu
+  {
+  overflow: hidden;
+  background: #9c459b;
+  box-shadow: 0px 13px 17px -6px #000000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+  .menu
+  {
+  margin:0 auto;
+  display:table;
+  }
+  .menu li a
+  {
+  font: 18px Verdana, Arial, Helvetica, sans-serif;
+  color:#fff;
+  text-decoration: none;
+  }
+  .menu li a:hover
+  {
+  font: 18px Verdana, Arial, Helvetica, sans-serif;
+  color:#ccc;
+  border-bottom:1px dotted #ccc;
+  }
+  .logo
+  {
+  margin: auto;
+  width:200px;
+  margin-top:30px;
+  margin-bottom:30px;
+  }
+   
+  .logo img
+  {
+  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari, Google Chrome */
+  -khtml-border-radius: 20px; /* KHTML */
+  -o-border-radius: 20px; /* Opera */
+  -ms-border-radius: 20px; /* IE8 */
+  -icab-border-radius: 20px; /* Icab */
+  border-radius: 20px; /* CSS3 */
+  }
+   
+  .content
+  {
+  width:1000px;
+  margin:0 auto;
+  padding:20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+  }
+  .content table
+  {
+  margin:auto;
+  border-collapse: collapse;
+  }
+  .content table th{
+  border: 1px solid black;
+  width:300px;
+  margin: auto;
+  font: 18px Verdana, Arial, Helvetica, sans-serif;
+  color:#444;
+  text-align:center;
+  line-height: 1.5;
+  }
+  .content table td{
+    border: 1px solid black;
+    width:300px;
+    margin: auto;
+    text-align:center;
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    color:#444;
+    text-align:center;
+    line-height: 1.5;
+    }
+  .content h2
+  {
+  font: 50px Verdana, Arial, Helvetica, sans-serif;
+  color:#444;
+  text-align:center;
+  }
+  .content h3
+  {
+  font: 23px Verdana, Arial, Helvetica, sans-serif;
+  color:#f40707;
+  text-align:center;
+  line-height: 3.5;
+  }
+  .content p
+  {
+  font: 18px Verdana, Arial, Helvetica, sans-serif;
+  color:#444;
+  text-indent:20px;
+  line-height: 2.5;
+  margin-top:  10px;
+  }
+  .footer
+  {
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+  }
+  .footer p, .footer a
+  {
+  font: 14px Verdana, Arial, Helvetica, sans-serif;
+  color:#444;
+  }
+   
+  .footer a
+  {
+  text-decoration: none;
+  border-bottom:1px dotted #444;
+  }
+   
+  .footer a:hover
+  {
+  text-decoration: none;
+  border:0px;
+  }
